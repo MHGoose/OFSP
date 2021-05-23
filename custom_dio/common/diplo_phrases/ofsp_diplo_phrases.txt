@@ -2,7 +2,7 @@ greetings = {
 	# Servitor Greetings
 	OFSP_HOSTILE_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -22,7 +22,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -42,7 +42,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -62,7 +62,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -82,7 +82,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -102,7 +102,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -122,7 +122,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_07 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -142,7 +142,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_08 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -162,7 +162,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_09 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -182,7 +182,7 @@ greetings = {
 
 	OFSP_HOSTILE_GREETING_10 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -202,7 +202,7 @@ greetings = {
 
 	OFSP_DOMINEERING_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -219,7 +219,7 @@ greetings = {
 
 	OFSP_DOMINEERING_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -236,7 +236,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -253,7 +253,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -270,7 +270,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -287,7 +287,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -304,7 +304,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -321,7 +321,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -338,7 +338,7 @@ greetings = {
 
 	OFSP_NEUTRAL_GREETING_07 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -355,7 +355,7 @@ greetings = {
 
 	OFSP_THREATENED_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -372,7 +372,7 @@ greetings = {
 
 	OFSP_THREATENED_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -389,7 +389,7 @@ greetings = {
 
 	OFSP_THREATENED_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -406,7 +406,7 @@ greetings = {
 
 	OFSP_FRIENDLY_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -427,7 +427,7 @@ greetings = {
 
 	OFSP_FRIENDLY_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -448,7 +448,7 @@ greetings = {
 
 	OFSP_FRIENDLY_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -469,7 +469,7 @@ greetings = {
 
 	OFSP_FRIENDLY_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -489,7 +489,7 @@ greetings = {
 	}
 	OFSP_FRIENDLY_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -510,7 +510,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -526,7 +526,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -542,7 +542,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -558,7 +558,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -574,7 +574,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -590,7 +590,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -606,7 +606,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_07 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -622,7 +622,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_08 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -638,7 +638,7 @@ greetings = {
 
 	OFSP_WAR_GREETING_09 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -654,7 +654,7 @@ greetings = {
 
 	OFSP_VASSAL_GREETING_01 = {
 		weight = {
-			weight = 19000
+			weight = 19000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -675,7 +675,7 @@ greetings = {
 
 	OFSP_VASSAL_GREETING_02 = {
 		weight = {
-			weight = 19000
+			weight = 19000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -696,7 +696,7 @@ greetings = {
 
 	OFSP_VASSAL_GREETING_DISLOYAL_01 = {
 		weight = {
-			weight = 19000
+			weight = 19000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -719,7 +719,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -739,7 +739,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -756,7 +756,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -774,7 +774,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -791,7 +791,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -811,7 +811,7 @@ greetings = {
 
 	S_MECH_HOSTILE_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -831,7 +831,7 @@ greetings = {
 
 	S_MECH_DOMINEERING_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -845,7 +845,7 @@ greetings = {
 
 	S_MECH_DOMINEERING_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -859,7 +859,7 @@ greetings = {
 
 	S_MECH_DOMINEERING_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -873,7 +873,7 @@ greetings = {
 
 	S_MECH_DOMINEERING_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -887,7 +887,7 @@ greetings = {
 
 	S_MECH_DOMINEERING_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -901,7 +901,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -916,7 +916,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -931,7 +931,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -948,7 +948,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -962,7 +962,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -976,7 +976,7 @@ greetings = {
 
 	S_MECH_NEUTRAL_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -991,7 +991,7 @@ greetings = {
 
 	S_MECH_THREATENED_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1004,7 +1004,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1021,7 +1021,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1038,7 +1038,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1055,7 +1055,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1073,7 +1073,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1091,7 +1091,7 @@ greetings = {
 
 	S_MECH_FRIENDLY_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1111,7 +1111,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_01 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1127,7 +1127,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_02 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1143,7 +1143,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_03 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1156,7 +1156,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_04 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1169,7 +1169,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_05 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1183,7 +1183,7 @@ greetings = {
 
 	S_MECH_WAR_GREETING_06 = {
 		weight = {
-			weight = 9000
+			weight = 9000000
 		}
 		trigger = {
 			is_at_war_with = FROM
@@ -1197,7 +1197,7 @@ greetings = {
 
 	S_MECH_VASSAL_GREETING_01 = {
 		weight = {
-			weight = 19000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
@@ -1218,7 +1218,7 @@ greetings = {
 
 	S_MECH_VASSAL_GREETING_DISLOYAL_01 = {
 		weight = {
-			weight = 19000
+			weight = 9000000
 		}
 		trigger = {
 			has_ai_personality = ofsp
