@@ -1,0 +1,1239 @@
+greetings = {
+	# Servitor Greetings
+	OFSP_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_07 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = from
+				is_unfriendly_to = from
+			}
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_08 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = from
+				is_unfriendly_to = from
+			}
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_09 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = from
+				is_unfriendly_to = from
+			}
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_HOSTILE_GREETING_10 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = from
+				is_unfriendly_to = from
+			}
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = from
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_DOMINEERING_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = from
+			NOT = { is_at_war_with = from }
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = from }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_NEUTRAL_GREETING_07 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_neutral_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_THREATENED_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_THREATENED_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			is_threatened_to = FROM
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_FRIENDLY_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+	OFSP_FRIENDLY_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			NOT = { is_at_war_with = FROM }
+			OR = {
+				is_friendly_to = FROM
+				is_cordial_to = FROM
+				is_protective_to = FROM
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_07 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_08 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_WAR_GREETING_09 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 19000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			AND = {
+				exists = overlord
+				overlord = { is_same_value = FROM }
+				NOT = { is_at_war_with = FROM }
+				NOT = { is_disloyal_to = FROM }
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_VASSAL_GREETING_02 = {
+		weight = {
+			weight = 19000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			AND = {
+				exists = overlord
+				overlord = { is_same_value = FROM }
+				NOT = { is_at_war_with = FROM }
+				NOT = { is_disloyal_to = FROM }
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	OFSP_VASSAL_GREETING_DISLOYAL_01 = {
+		weight = {
+			weight = 19000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			AND = {
+				exists = overlord
+				is_disloyal_to = FROM
+				overlord = { is_same_value = FROM }
+				NOT = { is_at_war_with = FROM }
+			}
+			FROM = {
+				NOR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	# Servitors to Machines
+
+	S_MECH_HOSTILE_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				NOT = {
+					has_civic = civic_machine_servitor
+				}
+			}
+		}
+	}
+
+	S_MECH_HOSTILE_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_HOSTILE_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_HOSTILE_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_HOSTILE_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				NOT = {
+					has_civic = civic_machine_servitor
+				}
+			}
+		}
+	}
+
+	S_MECH_HOSTILE_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_hostile_to = FROM
+				is_unfriendly_to = FROM
+			}
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	S_MECH_DOMINEERING_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_DOMINEERING_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_DOMINEERING_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_DOMINEERING_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_DOMINEERING_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_domineering_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				NOT = {
+					has_civic = civic_machine_servitor
+				}
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_NEUTRAL_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_neutral_to = FROM
+			NOT = { is_at_war_with = FROM }
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_THREATENED_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			is_threatened_to = FROM
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_FRIENDLY_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			OR = {
+				is_friendly_to = FROM
+				is_protective_to = FROM
+				is_cordial_to = FROM
+			}
+			FROM = {
+				has_authority = auth_machine_intelligence
+				NOT = {
+					has_civic = civic_machine_servitor
+				}
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_01 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_02 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_03 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_04 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_05 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				has_authority = auth_machine_intelligence
+				has_civic = civic_machine_servitor
+			}
+		}
+	}
+
+	S_MECH_WAR_GREETING_06 = {
+		weight = {
+			weight = 9000
+		}
+		trigger = {
+			is_at_war_with = FROM
+			has_ai_personality = ofsp
+			FROM = {
+				has_civic = civic_machine_servitor
+				has_authority = auth_machine_intelligence
+			}
+		}
+	}
+
+	S_MECH_VASSAL_GREETING_01 = {
+		weight = {
+			weight = 19000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			AND = {
+				exists = overlord
+				overlord = { is_same_value = FROM }
+				NOT = { is_at_war_with = FROM }
+				NOT = { is_disloyal_to = FROM }
+			}
+			FROM = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+
+	S_MECH_VASSAL_GREETING_DISLOYAL_01 = {
+		weight = {
+			weight = 19000
+		}
+		trigger = {
+			has_ai_personality = ofsp
+			AND = {
+				exists = overlord
+				overlord = { is_same_value = FROM }
+				NOT = { is_at_war_with = FROM }
+				is_disloyal_to = FROM
+			}
+			FROM = {
+				OR = {
+					has_authority = auth_machine_intelligence
+					is_species_class = ROBOT
+				}
+			}
+		}
+	}
+}

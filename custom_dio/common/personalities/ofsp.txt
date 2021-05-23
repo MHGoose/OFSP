@@ -1,0 +1,62 @@
+ofsp = {
+	aggressiveness = 1.5
+	trade_willingness = 0.5
+	bravery = 1.5
+
+	military_spending = 1.25
+	colony_spending = 1.0
+
+	federation_acceptance = 0
+	nap_acceptance = 0
+	defensive_pact_acceptance = 0
+	migration_pact_acceptance = -50
+
+	advanced_start_chance = 75
+
+	weapon_preferences = weapon_type_kinetic
+	armor_ratio = 0.5
+	shields_ratio = 0.1
+	hull_ratio = 0.4
+
+	threat_modifier = 0.75
+	threat_others_modifier = 0.5
+	friction_modifier = 1.0
+	claims_modifier = 2.5
+
+	behaviour = {
+		conqueror = yes
+		subjugator = yes
+		liberator = yes
+		opportunist = yes
+		uplifter = yes
+		infiltrator = yes
+		dominator = yes
+		slaver = no
+		purger = yes
+		robot_exploiter = no
+		robot_liberator = yes
+		propagator = no
+		multispecies = no
+		crisis_fighter = yes
+	}
+
+	allow = {
+		is_country_type = default
+		AND = {
+			host_has_dlc = "Synthetic Dawn Story Pack"
+			has_valid_civic = "civic_machine_servitor"
+		}
+	}
+
+	weight_modifier = {
+		weight = 100
+		modifier = {
+			factor = 10000
+			AND = {
+				has_civic = "civic_machine_warbots"
+				has_civic = "civic_machine_servitor"
+			}
+		}
+	}
+
+}
