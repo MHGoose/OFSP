@@ -9,4 +9,4 @@ Made as a reference to a party member from a DnD campaign I was a part of. It wi
 - It reacts more aggressively to claims made upon it. 
 - It is willing to use every method available to acquire additional organics ("Friends"), be it through war or invasion of primitives. 
 - It favors armor and hull mods over shields on its ships, and prefers kinetic weapons.
-- It has custom dialogues inspired or directly pulled from the aforementioned campaign to give OFSP more 'character', making it even more distinct from the default ROgue Servitor personality. (To be implemented)
+- It has custom dialogues inspired or directly pulled from the aforementioned campaign to give OFSP more 'character', making it even more distinct from the default Rogue Servitor personality. (To be implemented)
